@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+           background-color: black;
+               text-align: center;
+    }
+    
+    h1{
+        
+        margin: 50px 15px 15px 15px;
+        border-radius: 5px;
+        background-color: #ffff;
+        width: 70px;
+        display: inline-block;
+        color: black
+        
+    }
+    button{
+        border-radius: 5px;
+        margin: 15px 15px 15px 15px;
+        height: 30px;
+        width: 70px;
+    }
+    .SW{
+        border-radius: 10px;
+        padding: 20px 10px 10px 10px;
+        height: 50px;
+        width: 400px;
+    }
+</style>
+<body>
+    <div>
+       <h1 class="SW"> STOP WATCH</h1>
+    </div>
+      
+    <div class="">
+        <h1 id="min">0</h1>
+        <h1 id="sec">0</h1>
+        <h1 id="msec">0</h1>
+    </div>
+
+    <div>
+
+        <button id="btn" onclick="start(), disable()">Start</button>
+        <button id="btn"onclick="stop(), enable()">Pause</button>    
+        <button id="btn"onclick="reset(), enable()">Reset</button>
+
+    </div>
+    
+</body>
+<script src="app.js"></script>
+</html>
